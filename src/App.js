@@ -34,7 +34,7 @@ function App() {
     
       <AuthContext.Provider value={{
         isLoggedIn: isLoggedIn,
-        onLogout: loginHandler
+        onLogout: logoutHandler
     }}>
       <MainHeader />
       <main>
